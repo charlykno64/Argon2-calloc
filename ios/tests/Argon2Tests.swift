@@ -1,6 +1,6 @@
 import Foundation
 import XCTest
-import SignalArgon2
+import SignalArgon2CAlloc
 
 // Test data originated in Argon2 test.c
 class Argon2Tests: XCTestCase {

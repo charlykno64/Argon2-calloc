@@ -7,15 +7,15 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "SignalArgon2-calloc"
+  s.name             = "SignalArgon2CAlloc"
   s.version          = "1.3.3"
   s.summary          = "A Swift wrapper around the reference Argon2 implementation without the malloc security warning."
 
   s.description      = <<-DESC
-    A Swift wrapper around the reference Argon2 implementation without the malloc security warning.
+    A Swift wrapper around the reference Argon2 implementation without the malloc security warning using the slower but more secure callow alternative. It also includes the last commits from P-H-C phc-winner-argon2.
   DESC
 
-  s.homepage         = "https://github.com/signalapp/Argon2-calloc"
+  s.homepage         = "https://github.com/charlykno64/Argon2-calloc"
   s.license          = 'GPLv3'
   s.author           = { "iOS Team" => "carlos.cano@ine.mx" }
   s.source           = { git: "https://github.com/charlykno64/Argon2-calloc.git", tag: s.version.to_s, submodules: true }
