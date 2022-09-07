@@ -1,0 +1,3 @@
+[submodule "phc-winner-argon2-calloc"]
+	path = phc-winner-argon2-calloc
+	url = https://github.com/charlykno64/phc-winner-argon2-calloc.git
