@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = "https://github.com/charlykno64/Argon2-calloc"
   s.license          = 'GPLv3'
-  s.author           = { "iOS Team" => "carlos.cano@ine.mx" }
+  s.author           = { "iOS Team" => "carlosfabian24.cm@gmail.com" }
   s.source           = { git: "https://github.com/charlykno64/Argon2-calloc.git", tag: s.version.to_s, submodules: true }
 
   s.platform     = :ios, '12.0.1'
@@ -32,7 +32,8 @@ Pod::Spec.new do |s|
     'phc-winner-argon2/src/blake2/blake2.h',
     'phc-winner-argon2/src/blake2/blake2b.c',
     'phc-winner-argon2/src/blake2/blake2-impl.h',
-    'phc-winner-argon2/include/**/*.h'
+    'phc-winner-argon2/include/**/*.h',
+    'phc-winner-argon2/include/argon2.h'
   s.osx.source_files =
     'phc-winner-argon2/src/opt.c',
     'phc-winner-argon2/src/blake2/blamka-round-opt.h'
