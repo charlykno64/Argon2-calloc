@@ -25,29 +25,28 @@ Pod::Spec.new do |s|
 
   s.source_files =
     'ios/src/**/*.swift',
-    'phc-winner-argon2/src/argon2.c',
-    'phc-winner-argon2/src/core.{c,h}',
-    'phc-winner-argon2/src/thread.{c,h}',
-    'phc-winner-argon2/src/encoding.{c,h}',
-    'phc-winner-argon2/src/blake2/blake2.h',
-    'phc-winner-argon2/src/blake2/blake2b.c',
-    'phc-winner-argon2/src/blake2/blake2-impl.h',
-    'phc-winner-argon2/include/**/*.h',
-    'phc-winner-argon2/include/argon2.h'
+    'phc-winner-argon2-calloc/src/argon2.c',
+    'phc-winner-argon2-calloc/src/core.{c,h}',
+    'phc-winner-argon2-calloc/src/thread.{c,h}',
+    'phc-winner-argon2-calloc/src/encoding.{c,h}',
+    'phc-winner-argon2-calloc/src/blake2/blake2.h',
+    'phc-winner-argon2-calloc/src/blake2/blake2b.c',
+    'phc-winner-argon2-calloc/src/blake2/blake2-impl.h',
+    'phc-winner-argon2-calloc/include/**/*.h'
   s.osx.source_files =
-    'phc-winner-argon2/src/opt.c',
-    'phc-winner-argon2/src/blake2/blamka-round-opt.h'
+    'phc-winner-argon2-calloc/src/opt.c',
+    'phc-winner-argon2-calloc/src/blake2/blamka-round-opt.h'
   s.ios.source_files =
-    'phc-winner-argon2/src/ref.c',
-    'phc-winner-argon2/src/blake2/blamka-round-ref.h'
+    'phc-winner-argon2-calloc/src/ref.c',
+    'phc-winner-argon2-calloc/src/blake2/blamka-round-ref.h'
   s.tvos.source_files =
-    'phc-winner-argon2/src/ref.c',
-    'phc-winner-argon2/src/blake2/blamka-round-ref.h'
+    'phc-winner-argon2-calloc/src/ref.c',
+    'phc-winner-argon2-calloc/src/blake2/blamka-round-ref.h'
   s.watchos.source_files =
-    'phc-winner-argon2/src/ref.c',
-    'phc-winner-argon2/src/blake2/blamka-round-ref.h'
+    'phc-winner-argon2-calloc/src/ref.c',
+    'phc-winner-argon2-calloc/src/blake2/blamka-round-ref.h'
 
-  s.public_header_files = 'phc-winner-argon2/include/**/*.h'
+  s.public_header_files = 'phc-winner-argon2-calloc/include/**/*.h'
 
   s.test_spec 'Tests' do |test_spec|
     test_spec.source_files = 'ios/tests/**/*.swift'
