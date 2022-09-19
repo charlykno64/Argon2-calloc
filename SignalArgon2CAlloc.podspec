@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '12.0.1'
   s.requires_arc = true
-  spec.swift_version = '4.0'
+  s.swift_version = '4.0'
 
   s.source_files =
     'ios/src/**/*.swift',
