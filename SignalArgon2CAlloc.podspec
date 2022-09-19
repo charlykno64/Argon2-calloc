@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SignalArgon2CAlloc"
-  s.version          = "1.3.4"
+  s.version          = "1.3.5"
   s.summary          = "A Swift wrapper around the reference Argon2 implementation without the malloc security warning."
 
   s.description      = <<-DESC
